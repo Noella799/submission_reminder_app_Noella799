@@ -1,0 +1,12 @@
+#!/bin/bash
+student, assignment, submission status
+Chinemerem, Shell Navigation, not submitted
+Chiagoziem, Git, submitted
+Divine, Shell Navigation, not submitted
+Anissa, Shell Basics, submitted
+Ish, Git, not submitted
+Kevine, Shell Navigation, not submitted
+Prince, Shell Navigation, submitted
+Yonas, Shell Basics, submitted
+Soliel, Git, submitted
+Nayah, Git,not submitted
