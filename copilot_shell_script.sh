@@ -7,7 +7,7 @@ read new_assignment #reads user input
 maindir=$(find . -type d -name "submission_reminder_*" | head -n 1)
 
 #update assignment value in config/config.env file
-sed -i "s/^ASSIGNMENT=.*/ASSIGNMENT=$new_assignment/" config/config.env
+sed -i "s/^ASSIGNMENT=.*/ASSIGNMENT=$new_assignment/" "$maindir/config/config.env"
 
 #notife the user that the assignment name was updated
 echo "Assignment updated to $new_assignment"
